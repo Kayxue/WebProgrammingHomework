@@ -1,4 +1,5 @@
 import mongoose, { Schema } from "mongoose";
+import 'dotenv/config'
 mongoose.connect(
 	process.env.DBURL
 );
