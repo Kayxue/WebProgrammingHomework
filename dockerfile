@@ -1,4 +1,4 @@
-FROM oven/bun:latest AS base
+FROM oven/bun:distroless AS base
 WORKDIR /app
 EXPOSE 3000
 
