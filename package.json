@@ -1,0 +1,12 @@
+{
+  "types": "module",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "express": "^4.21.2",
+    "mongoose": "^8.8.4"
+  },
+  "scripts": {
+    "start": "bun  run --bun --env-file=.env index.js"
+  },
+  "type": "module"
+}
