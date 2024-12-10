@@ -1,6 +1,6 @@
 FROM oven/bun:latest AS base
 WORKDIR /app
-EXPOSE 3000/tcp
+EXPOSE 3000
 
 COPY . .
 RUN bun install
